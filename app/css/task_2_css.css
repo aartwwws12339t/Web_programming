@@ -7,7 +7,7 @@
 /* Селектор для усіх тегів */
 * {
   /* Колір тексту - синій */
-  color: blue;
+  color: rgb(36, 67, 87);
   /* Зовнішні відступи */
   margin: 0px;
   /* Внутрішні відступи */
@@ -17,7 +17,7 @@
 /* Селектор для тегу <body> */
 body {
   /* Колір тексту - чорний */
-  color: black;
+  color: rgb(10, 10, 10);
   /* Розмір шрифту - 30 пікселів */
   font-size: 30px;
   /* Горизонтальне вирівнювання тексту - по середині */
@@ -25,7 +25,7 @@ body {
   /* Розмір фонового зображення */
   background-size: 20%;
   /* Зображення на задньому фоні */
-  background-image: url(../img/web_technology.png)
+  background-image: url(../img/images.png)
 }
 
 /* Селектор для id <main_block> */
@@ -36,7 +36,7 @@ body {
   height: auto;
   min-height: 100vh;
   /* Колір фону */
-  background: #FFFFFFEE;
+  background: #f0f0f0e5;
   /* Відступи внутрішні - по вертикалі та горизонталі */
   padding: 3px 5px;
 }
@@ -44,18 +44,21 @@ body {
 /* Селектор для тегів <h> */
 h1, h2, h3, h4, h5, h6 {
   /* Колір тексту - помаранчевий */
-  color: orange;
+  color: rgb(157, 216, 240);
+}
+h1 {
+  background-color: rgba(34, 33, 39, 0.87);
 }
 
 h2 {
-	background-color: blue;
-	
-}
+	background-color: rgba(0, 0, 0, 0.822);
+	}
 
 /* Перезапис стилів для <h3> */
 h3 {
   /* Колір тексту - темно зелений */
-  color: #427838;
+  color: #272423e5;
+  background-color: rgba(91, 216, 210, 0.219);
 }
 
 /* Селектор для тегів <p> */
@@ -179,7 +182,7 @@ body div span p {
   /* Прозорість - 90% */
   opacity: 0.9;
   /* Заокруглення рамки - по основній та допоміжній діагоналі */
-  border-radius: 0 50%;
+  border-radius: 0 0%;
   /* Час анімації для кольорів тексту, фону та рамки */
   transition: color 1s, background 1s, border-color 1s;
 }
@@ -187,9 +190,9 @@ body div span p {
 /* Селектор для класу <block_r> */
 .block_r {
   /* Колір тексту - білий */
-  color: white;
+  color: rgb(0, 0, 0);
   /* Колір фону - червоний */
-  background: #FF0000;
+  background: #a4d2ecee;
   /* Стиль рамки - суцільна */
   border-style: solid;
 }
@@ -197,9 +200,9 @@ body div span p {
 /* Селектор для класу <block_g> */
 .block_g {
   /* Колір тексту - чорний */
-  color: black;
+  color: white;
   /* Колір фону - зелений */
-  background: #00FF00;
+  background: #697f91fb;
   /* Стиль рамки - штрихована */
   border-style: dashed;
 }
@@ -209,7 +212,7 @@ body div span p {
   /* Колір тексту - білий */
   color: white;
   /* Колір фону - синій */
-  background: #0000FF;
+  background: #3e3e8fe7;
   /* Стиль рамки - подвійна */
   border-style: double;
 }
@@ -219,7 +222,7 @@ body div span p {
   /* Колір тексту - чорний */
   color: black;
   /* Колір фону - жовтий */
-  background: #FFFF00;
+  background: #33bcced7;
   /* Стиль рамки - точкова */
   border-style: dotted;
 }
@@ -267,7 +270,7 @@ body div span p {
 /* Псевдоклас наведення для класу <goto_home> */
 .goto_home:hover {
   /* Колір тексту - жовтий */
-  color: yellow;
+  color: rgb(255, 255, 255);
   /* Колір фону - темно сірий */
   background: #333;
   /* Параметри рамки */
