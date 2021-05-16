@@ -292,14 +292,14 @@ function btn_1_press() {
   // Запускаємо таймер
   function start_timer() {
     // Змінюємо текст кнопки
-    $("#btn_timer").attr("value", "Анімація запуститься через 3 сек.");
+    $("#btn_timer").attr("value", "Анімація запуститься через 2 сек.");
     // Запускаємо таймер
     setTimeout(() => {
       // Змінюємо текст кнопки
       $("#btn_timer").attr("value", "Запустити таймер");
       // Запускаємо анімацію
       start_animation();
-    }, 3000);
+    }, 2000);
   }
   
   // .......................................................................
@@ -325,7 +325,7 @@ function btn_1_press() {
       start_animation();
       // Якщо інтервал зупинено - очищуємо його
       if (!intervar_run) { clearInterval(interval); }
-    }, 3000);
+    }, 2000);
   }
   
   // .......................................................................
@@ -381,4 +381,4 @@ function btn_1_press() {
   add_animation_button_listener();
   
   // Змінюємо колір фону заголовку кожні 2 сек.
-  setInterval(change_title_background, 3000);
+  setInterval(change_title_background, 2000);

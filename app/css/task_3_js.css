@@ -14,10 +14,10 @@ body {
     margin: 2px 0 0 2px;
     text-align: center;
     border-style: solid;
-    border-color: #F00;
+    border-color: rgba(117, 152, 163, 0.582);
     border-width: 2px;
     box-sizing: inherit;
-    background-color: #F005;
+    background-color: rgba(188, 229, 241, 0.514);
   }
   
   /* Кінцевий блок */
@@ -28,10 +28,10 @@ body {
     margin: 2px 2px 0;
     text-align: center;
     border-style: solid;
-    border-color: #F00;
-    border-width: 2px;
+    border-color: rgb(199, 152, 81);
+    border-width:1px;
     box-sizing: inherit;
-    background-color: #F005;
+    background-color: rgba(236, 191, 122, 0.712);
   }
   
   input {
@@ -69,25 +69,25 @@ body {
   }
   
   #div_1 {
-    border-color: #0F0;
-    background-color: #0F05;
+    border-color: rgba(182, 163, 185, 0.438);
+    background-color: rgba(198, 139, 219, 0.274);
   }
   
   #div_2,
   #div_6 {
     color: white;
-    border-color: #333;
-    background-color: #3338;
+    border-color: rgba(253, 251, 251, 0.849);
+    background-color: rgba(51, 51, 51, 0.185);
   }
   
   #div_3 {
-    border-color: #00F;
-    background-color: #00F5;
+    border-color: white;
+    background-color: rgba(0, 0, 255, 0.062);
   }
   
   #div_4 {
-    border-color: #F0F;
-    background-color: #F0F5;
+    border-color: white;
+    background-color: rgba(255, 0, 255, 0.116);
   }
   
   #div_4 form {
@@ -95,17 +95,17 @@ body {
   }
   
   #div_5 {
-    border-color: #FF0;
+    border-color: white;
     background-color: #FF05;
   }
   
   #div_6 {
-    margin-bottom: 2px;
+    margin-bottom: 5px;
   }
   
   #div_6 a,
   #div_6 a:visited {
-    color: white;
+    color: rgb(36, 34, 34);
     font-size: 1.3em;
     text-decoration: none;
   }
@@ -134,9 +134,9 @@ body {
     /* Горизонтальне вирівнювання: по центру */
     justify-content: center;
     /* Колір фону */
-    background-color: #00F5;
+    background-color: rgba(202, 62, 148, 0.322);
     /* Колір рамки */
-    border-color: #00F;
+    border-color: white;
   }
   
   #img {
@@ -158,7 +158,7 @@ body {
   
   #flex_block img {
     display: block;
-    width: 48px;
+    width: 110px;
   }
   
   #flex_block img[alt="im_2"],
@@ -166,7 +166,7 @@ body {
   #flex_block img[alt="im_6"],
   #flex_block img[alt="im_8"] {
     display: block;
-    width: 72px;
+    width: 80px;
   }
   
   #title {
