@@ -1,5 +1,6 @@
 /* Налаштування тегу <body> */
 body {
+    background-color: rgba(162, 180, 57, 0.493);
     margin: 0;
     padding: 0;
     font-size: 18px;
@@ -14,10 +15,10 @@ body {
     margin: 2px 0 0 2px;
     text-align: center;
     border-style: solid;
-    border-color: rgba(117, 152, 163, 0.582);
+    border-color: rgba(255, 255, 255, 0.904);
     border-width: 2px;
     box-sizing: inherit;
-    background-color: rgba(188, 229, 241, 0.514);
+    background-color: rgba(238, 178, 89, 0.822);
   }
   
   /* Кінцевий блок */
@@ -28,10 +29,10 @@ body {
     margin: 2px 2px 0;
     text-align: center;
     border-style: solid;
-    border-color: rgb(199, 152, 81);
+    border-color: rgb(255, 255, 255);
     border-width:1px;
     box-sizing: inherit;
-    background-color: rgba(236, 191, 122, 0.712);
+    background-color: rgba(44, 41, 38, 0.712);
   }
   
   input {
@@ -69,25 +70,25 @@ body {
   }
   
   #div_1 {
-    border-color: rgba(182, 163, 185, 0.438);
-    background-color: rgba(198, 139, 219, 0.274);
+    border-color: rgba(255, 255, 255, 0.733);
+    background-color: rgba(188, 219, 219, 0.911);
   }
   
   #div_2,
   #div_6 {
-    color: white;
+    color: rgb(255, 255, 255);
     border-color: rgba(253, 251, 251, 0.849);
-    background-color: rgba(51, 51, 51, 0.185);
+    background-color: rgba(188, 219, 219, 0.911);
   }
   
   #div_3 {
     border-color: white;
-    background-color: rgba(0, 0, 255, 0.062);
+    background-color:rgba(188, 219, 219, 0.911);
   }
   
   #div_4 {
     border-color: white;
-    background-color: rgba(255, 0, 255, 0.116);
+    background-color: rgba(0, 110, 255, 0.116);
   }
   
   #div_4 form {

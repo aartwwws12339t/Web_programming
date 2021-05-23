@@ -1,0 +1,57 @@
+/* Стиль курсора для елементів бокового меню */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Poppins:wght@600;700&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background-color: rgba(71, 98, 110, 0.589);
+    color: #ffffff;
+}
+
+li.nav-item {
+    cursor:pointer;
+ }
+ 
+ /* Додаткові стилі для малих екранів */
+ @media only screen {
+    /* Меню сайту */
+    #menu {
+       border-right: 0px;
+    }
+ }
+ /* Додаткові стилі для середніх та великих екранів */
+ @media only screen and (min-width : 576px) {
+    /* Меню сайту */
+    #menu {
+       background-color: rgba(13, 25, 48, 0.829);
+       border-right: 10px solid #ffffff;
+       color: rgb(255, 255, 255);
+       
+    }
+    /* Основний блок сайту */
+    #context {
+       height: 100vh;
+       min-height: 100vh;
+       overflow-y: auto;
+       background-color: rgba(17, 12, 59, 0.815);
+       
+    }
+ }
+ 
+ /* Стилі картин */
+ .painting {
+    border: 2px solid white;
+    transition: border .3s;
+    cursor: pointer;
+ }
+ 
+ /* Стилі при наведенні на картину */
+ .painting:hover {
+    border: 2px solid #70a5d6;
+    transition: border .3s;
+ }
