@@ -27,15 +27,16 @@ li.nav-item {
 @media only screen and (min-width : 576px) {
    /* Меню сайту */
    #menu {
-      border-right: 3px solid #000000;
-      background-color: rgb(8, 8, 8);
+      border-right: 25px solid #ffffff;
+      background: linear-gradient(#101155e3,#75a6de);
    }
    /* Основний блок сайту */
    #context {
       height: 100vh;
       min-height: 100vh;
       overflow-y: auto;
-      background-color: rgba(250, 250, 250, 0.514);
+      background-color: rgb(222, 224, 233);
+      
    }
 }
 
@@ -49,6 +50,6 @@ li.nav-item {
 
 /* Стилі при наведенні на картину */
 .painting:hover {
-   border: 3px solid #3b3b3b;
+   border: 3px solid #31124e;
    transition: border .3s;
 }
