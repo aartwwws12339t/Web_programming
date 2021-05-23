@@ -6,52 +6,49 @@
     padding: 0;
     box-sizing:border-box;
     font-family: 'Poppins', sans-serif;
-}
-body
-{
-    background-color: rgba(71, 98, 110, 0.589);
-    color: #ffffff;
+    color: rgb(255, 255, 255);
 }
 
+/* Стиль курсора для елементів бокового меню */
 li.nav-item {
-    cursor:pointer;
- }
- 
- /* Додаткові стилі для малих екранів */
- @media only screen {
-    /* Меню сайту */
-    #menu {
-       border-right: 0px;
-    }
- }
- /* Додаткові стилі для середніх та великих екранів */
- @media only screen and (min-width : 576px) {
-    /* Меню сайту */
-    #menu {
-       background-color: rgba(13, 25, 48, 0.829);
-       border-right: 10px solid #ffffff;
-       color: rgb(255, 255, 255);
-       
-    }
-    /* Основний блок сайту */
-    #context {
-       height: 100vh;
-       min-height: 100vh;
-       overflow-y: auto;
-       background-color: rgba(17, 12, 59, 0.815);
-       
-    }
- }
- 
- /* Стилі картин */
- .painting {
-    border: 2px solid white;
-    transition: border .3s;
-    cursor: pointer;
- }
- 
- /* Стилі при наведенні на картину */
- .painting:hover {
-    border: 2px solid #70a5d6;
-    transition: border .3s;
- }
+   cursor: pointer;
+}
+
+/* Додаткові стилі для малих екранів */
+@media only screen {
+   /* Меню сайту */
+   #menu {
+      color: #ffffff;
+      border-right: 0px;
+   }
+}
+
+/* Додаткові стилі для середніх та великих екранів */
+@media only screen and (min-width : 576px) {
+   /* Меню сайту */
+   #menu {
+      border-right: 3px solid #000000;
+      background-color: rgb(8, 8, 8);
+   }
+   /* Основний блок сайту */
+   #context {
+      height: 100vh;
+      min-height: 100vh;
+      overflow-y: auto;
+      background-color: rgba(250, 250, 250, 0.514);
+   }
+}
+
+/* Стилі картин */
+.painting {
+   border: 3px solid rgb(226, 223, 223);
+   transition: border .3s;
+   cursor: pointer;
+   
+}
+
+/* Стилі при наведенні на картину */
+.painting:hover {
+   border: 3px solid #3b3b3b;
+   transition: border .3s;
+}
